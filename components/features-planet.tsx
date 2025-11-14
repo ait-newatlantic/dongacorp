@@ -12,21 +12,94 @@ export default function FeaturesPlanet() {
 			<div className="mx-auto max-w-6xl px-4 sm:px-6">
 				<div className="py-12 md:py-20">
 					{/* Section header */}
-					<div className="mx-auto max-w-3xl pb-16 text-center md:pb-20">
-						<h2 className="text-3xl font-bold text-gray-200 md:text-4xl">
-							​Về chúng tôi
-						</h2>
-						<p className="text-white">
-							​Tự hào là nhà xuất nhập khẩu Đông Á tốt nhất CÔNG TY CỔ PHẦN TM
-							DỊCH VỤ VẬN TẢI XUẤT NHẬP KHẨU ĐÔNG Á là một công ty chuyên về
-							kinh doanh xuất nhập khẩu và gia công cơ khí. Chúng tôi cung cấp
-							các dịch vụ chuyên nghiệp về vận tải hàng hóa xuất nhập khẩu, đảm
-							bảo an toàn và đúng hạn của hàng hóa trong quá trình vận chuyển.
-							Chúng tôi cũng tự hào là một trong những nhà cung cấp dịch vụ gia
-							công cơ khí chuyên nghiệp và uy tín trong khu vực. Với đội ngũ
-							nhân viên chuyên nghiệp và kinh nghiệm, chúng tôi luôn đảm bảo sẽ
-							cung cấp cho khách hàng dịch vụ tốt nhất.
-						</p>
+					<div className="mx-auto max-w-4xl pb-12 md:pb-16">
+						<div className="text-center mb-8">
+							<h2 className="text-2xl font-bold text-gray-200 md:text-3xl mb-3">
+								Về chúng tôi
+							</h2>
+							<div className="inline-block">
+								<span className="text-sm md:text-base font-semibold text-blue-400 bg-blue-500/10 px-4 py-1.5 rounded-full border border-blue-500/30">
+									Tự hào là nhà xuất nhập khẩu Đông Á tốt nhất
+								</span>
+							</div>
+						</div>
+
+						<div className="space-y-6">
+							{/* Company Name */}
+							<div className="text-center">
+								<h3 className="text-xl md:text-2xl font-bold text-white leading-relaxed">
+									CÔNG TY CỔ PHẦN TM DỊCH VỤ VẬN TẢI<br className="hidden md:block" />
+									<span className="text-blue-400"> XUẤT NHẬP KHẨU ĐÔNG Á</span>
+								</h3>
+							</div>
+
+							{/* Description Cards */}
+							<div className="grid md:grid-cols-2 gap-4 mt-6">
+								<div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-blue-500/50 transition-all">
+									<div className="flex items-start gap-3">
+										<div className="flex-shrink-0 mt-0.5">
+											<div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center">
+												<span className="text-blue-400 text-base font-bold">1</span>
+											</div>
+										</div>
+										<div>
+											<h4 className="text-base font-bold text-gray-200 mb-1">Chuyên môn cốt lõi</h4>
+											<p className="text-sm text-gray-300 leading-relaxed">
+												Chuyên về kinh doanh xuất nhập khẩu và gia công cơ khí với kinh nghiệm nhiều năm trong ngành.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-blue-500/50 transition-all">
+									<div className="flex items-start gap-3">
+										<div className="flex-shrink-0 mt-0.5">
+											<div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center">
+												<span className="text-blue-400 text-base font-bold">2</span>
+											</div>
+										</div>
+										<div>
+											<h4 className="text-base font-bold text-gray-200 mb-1">Vận tải chuyên nghiệp</h4>
+											<p className="text-sm text-gray-300 leading-relaxed">
+												Cung cấp dịch vụ vận tải hàng hóa xuất nhập khẩu chuyên nghiệp, đảm bảo an toàn và đúng hạn.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-blue-500/50 transition-all">
+									<div className="flex items-start gap-3">
+										<div className="flex-shrink-0 mt-0.5">
+											<div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center">
+												<span className="text-blue-400 text-base font-bold">3</span>
+											</div>
+										</div>
+										<div>
+											<h4 className="text-base font-bold text-gray-200 mb-1">Gia công uy tín</h4>
+											<p className="text-sm text-gray-300 leading-relaxed">
+												Là nhà cung cấp dịch vụ gia công cơ khí chuyên nghiệp và uy tín hàng đầu trong khu vực.
+											</p>
+										</div>
+									</div>
+								</div>
+
+								<div className="bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700/50 hover:border-blue-500/50 transition-all">
+									<div className="flex items-start gap-3">
+										<div className="flex-shrink-0 mt-0.5">
+											<div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center">
+												<span className="text-blue-400 text-base font-bold">4</span>
+											</div>
+										</div>
+										<div>
+											<h4 className="text-base font-bold text-gray-200 mb-1">Đội ngũ xuất sắc</h4>
+											<p className="text-sm text-gray-300 leading-relaxed">
+												Đội ngũ nhân viên chuyên nghiệp và giàu kinh nghiệm, luôn mang đến dịch vụ tốt nhất cho khách hàng.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 					{/* Planet */}
 					<div className="pb-16 md:pb-20" data-aos="zoom-y-out">
@@ -38,36 +111,58 @@ export default function FeaturesPlanet() {
 					</div>
 					{/* Grid */}
 					<div className="grid overflow-hidden sm:grid-cols-2 lg:grid-cols-3 [&>*]:relative [&>*]:p-6 [&>*]:before:absolute [&>*]:before:bg-gray-800 [&>*]:before:[block-size:100vh] [&>*]:before:[inline-size:1px] [&>*]:before:[inset-block-start:0] [&>*]:before:[inset-inline-start:-1px] [&>*]:after:absolute [&>*]:after:bg-gray-800 [&>*]:after:[block-size:1px] [&>*]:after:[inline-size:100vw] [&>*]:after:[inset-block-start:-1px] [&>*]:after:[inset-inline-start:0] md:[&>*]:p-10">
-						<article>
-							<h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+						<article data-aos="fade-up">
+							<div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-t from-blue-600 to-blue-500">
 								<svg
-									className="fill-blue-500"
+									className="fill-white"
 									xmlns="http://www.w3.org/2000/svg"
-									width={16}
-									height={16}
+									width={20}
+									height={20}
 								>
 									<path d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z" />
 								</svg>
-								<span>Kinh doanh xuất nhập khẩu</span>
+							</div>
+							<h3 className="mb-2 text-xl font-bold text-gray-200">
+								Kinh doanh xuất nhập khẩu
 							</h3>
-							<p className="text-[15px] text-gray-400">
-								Chuyên gia trong lĩnh vực
+							<p className="text-[15px] text-gray-400 leading-relaxed">
+								Cung cấp dịch vụ xuất nhập khẩu hàng hóa chuyên nghiệp, đảm bảo an toàn và đúng hạn với mạng lưới đối tác toàn cầu.
 							</p>
 						</article>
-						<article>
-							<h3 className="mb-2 flex items-center space-x-2 font-medium text-gray-200">
+						<article data-aos="fade-up" data-aos-delay={100}>
+							<div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-t from-blue-600 to-blue-500">
 								<svg
-									className="fill-blue-500"
+									className="fill-white"
 									xmlns="http://www.w3.org/2000/svg"
-									width={16}
-									height={16}
+									width={20}
+									height={20}
 								>
 									<path d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z" />
 								</svg>
-								<span>Gia công cơ khí</span>
+							</div>
+							<h3 className="mb-2 text-xl font-bold text-gray-200">
+								Gia công cơ khí
 							</h3>
-							<p className="text-[15px] text-gray-400">
-								Chuyên gia trong lĩnh vực
+							<p className="text-[15px] text-gray-400 leading-relaxed">
+								Dịch vụ gia công cơ khí chính xác với công nghệ hiện đại, đáp ứng mọi yêu cầu kỹ thuật khắt khe của khách hàng.
+							</p>
+						</article>
+						<article data-aos="fade-up" data-aos-delay={200}>
+							<div className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-t from-blue-600 to-blue-500">
+								<svg
+									className="fill-white"
+									xmlns="http://www.w3.org/2000/svg"
+									width={20}
+									height={20}
+								>
+									<path d="M16 0c1.103 0 2 .897 2 2v12c0 1.103-.897 2-2 2h-5v2h3a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2h3v-2H4c-1.103 0-2-.897-2-2V2c0-1.103.897-2 2-2h12zm0 2H4v10h12V2z" />
+								</svg>
+							</div>
+							<h3 className="mb-2 text-xl font-bold text-gray-200">
+								Vận tải logistics
+							</h3>
+							<p className="text-[15px] text-gray-400 leading-relaxed">
+								Hệ thống vận tải đa phương thức, tối ưu hóa chi phí và thời gian giao hàng cho mọi loại hình doanh nghiệp.
 							</p>
 						</article>
 					</div>

@@ -16,20 +16,27 @@ export default function HeroHome() {
 				<div className="pb-12 pt-32 md:pb-20 md:pt-40">
 					{/* Section header */}
 					<div className="pb-12 text-center md:pb-16">
+						<div className="mb-8" data-aos="fade-up">
+							<span className="inline-flex items-center rounded-full bg-gradient-to-r from-blue-500/10 to-blue-600/10 px-6 py-3 text-base font-semibold text-blue-600 border border-blue-500/30 shadow-sm">
+								Tự hào là nhà xuất nhập khẩu Đông Á tốt nhất
+							</span>
+						</div>
 						<h1
-							className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-6xl"
+							className="mb-12 border-y py-6 text-4xl font-bold leading-tight [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1] md:text-5xl lg:text-6xl"
 							data-aos="zoom-y-out"
 							data-aos-delay={150}
 						>
-							CÔNG TY CỔ PHẦN TM DỊCH VỤ VẬN TẢI XUẤT NHẬP KHẨU ĐÔNG Á
+							CÔNG TY CỔ PHẦN TM DỊCH VỤ<br />
+							VẬN TẢI XUẤT NHẬP KHẨU<br />
+							<span className="bg-gradient-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent">ĐÔNG Á</span>
 						</h1>
 						<div className="mx-auto max-w-3xl">
 							<p
-								className="mb-8 text-lg text-gray-700"
+								className="mb-8 text-base text-gray-600 italic"
 								data-aos="zoom-y-out"
 								data-aos-delay={300}
 							>
-								​Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi.
+								Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi
 							</p>
 							<div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
 								<div
