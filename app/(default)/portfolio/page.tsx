@@ -43,7 +43,7 @@ export default function Portfolio() {
 
                 {/* Phone */}
                 <div className="text-left">
-                  <p className="mb-2 text-sm font-medium text-gray-700">
+                  <p className="mb-2 text-sm font-medium text-gray-500">
                     Phone
                   </p>
                   <div className="flex items-center gap-3">
@@ -60,7 +60,7 @@ export default function Portfolio() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span className="text-gray-900">+ (84) 91 86 88 168</span>
+                    <span className="text-base font-semibold text-gray-900">+ (84) 91 86 88 168</span>
                   </div>
                 </div>
               </div>
@@ -87,22 +87,22 @@ export default function Portfolio() {
                   <div className="space-y-6">
                     {/* Name */}
                     <div>
-                      <p className="mb-2 text-sm font-medium text-gray-700">
+                      <p className="mb-2 text-sm font-medium text-gray-500">
                         Full name 
                       </p>
-                      <p className="text-gray-900">Mr Le Quang Hung</p>
+                      <p className="text-xl font-bold text-gray-900">Mr Le Quang Hung</p>
                     </div>
 
                     {/* Title */}
                     <div>
-                      <p className="mb-2 text-sm font-medium text-gray-700">
+                      <p className="mb-2 text-sm font-medium text-gray-500">
                         Role
                       </p>
-                      <p className="text-gray-900">Managing Director</p>
+                      <p className="text-xl font-bold text-blue-600">Managing Director</p>
                     </div>
                   {/* Email */}
                   <div>
-                    <p className="mb-2 text-sm font-medium text-gray-700">
+                    <p className="mb-2 text-sm font-medium text-gray-500">
                       Email
                     </p>
                     <div className="flex items-center gap-3">
@@ -119,7 +119,7 @@ export default function Portfolio() {
                           d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                         />
                       </svg>
-                      <span className="text-gray-900">info@dongacorp.com.vn</span>
+                      <span className="text-lg font-semibold text-gray-900">info@dongacorp.com.vn</span>
                     </div>
                   </div>
                   </div>
@@ -143,7 +143,7 @@ export default function Portfolio() {
 
                   {/* Website */}
                   <div>
-                    <p className="mb-2 text-sm font-medium text-gray-700">
+                    <p className="mb-2 text-sm font-medium text-gray-500">
                       Website
                     </p>
                     <div className="flex items-center gap-3">
@@ -160,13 +160,13 @@ export default function Portfolio() {
                           d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                         />
                       </svg>
-                      <span className="text-gray-900">www.dongacorp.com.vn</span>
+                      <span className="text-lg font-semibold text-gray-900">www.dongacorp.com.vn</span>
                     </div>
                   </div>
 
                   {/* Address */}
                   <div>
-                    <p className="mb-2 text-sm font-medium text-gray-700">
+                    <p className="mb-2 text-sm font-medium text-gray-500">
                       Address
                     </p>
                     <div className="flex items-start gap-3">
@@ -189,7 +189,7 @@ export default function Portfolio() {
                           d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                         />
                       </svg>
-                      <span className="text-gray-900">
+                      <span className="text-lg font-semibold text-gray-900">
                         156 Nam Ky Khoi Nghia, Sai Gon Ward, Ho Chi Minh City,
                         Viet Nam
                       </span>
