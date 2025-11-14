@@ -40,6 +40,29 @@ export default function Portfolio() {
                     className="h-auto"
                   />
                 </div>
+
+                {/* Phone */}
+                <div className="text-left">
+                  <p className="mb-2 text-sm font-medium text-gray-700">
+                    Phone
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <svg
+                      className="h-5 w-5 text-blue-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      />
+                    </svg>
+                    <span className="text-gray-900">+ (84) 91 86 88 168</span>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -84,29 +107,6 @@ export default function Portfolio() {
                         Company
                       </p>
                       <p className="text-gray-900">DONG A IMPORT EXPORT TRANSPORT SERVICE TRADING CORPORATION</p>
-                    </div>
-
-                    {/* Phone */}
-                    <div>
-                      <p className="mb-2 text-sm font-medium text-gray-700">
-                        Phone
-                      </p>
-                      <div className="flex items-center gap-3">
-                        <svg
-                          className="h-5 w-5 text-blue-500"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                          />
-                        </svg>
-                        <span className="text-gray-900">+ (84) 91 86 88 168</span>
-                      </div>
                     </div>
                   </div>
                 </div>
