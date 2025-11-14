@@ -88,7 +88,7 @@ export default function Portfolio() {
                     {/* Name */}
                     <div>
                       <p className="mb-2 text-sm font-medium text-gray-700">
-                        Full name <span className="text-red-500">*</span>
+                        Full name 
                       </p>
                       <p className="text-gray-900">Mr Le Quang Hung</p>
                     </div>
@@ -96,36 +96,10 @@ export default function Portfolio() {
                     {/* Title */}
                     <div>
                       <p className="mb-2 text-sm font-medium text-gray-700">
-                        Chức danh
+                        Role
                       </p>
                       <p className="text-gray-900">Managing Director</p>
                     </div>
-
-                    {/* Company */}
-                    <div>
-                      <p className="mb-2 text-sm font-medium text-gray-700">
-                        Company
-                      </p>
-                      <p className="text-gray-900">DONG A IMPORT EXPORT TRANSPORT SERVICE TRADING CORPORATION</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Contact & Bio Card - Separate */}
-              <div className="bg-white rounded-2xl shadow-lg p-8">
-                {/* Header */}
-                <div className="mb-8 border-b border-blue-600 pb-6">
-                  <h1 className="text-3xl font-bold text-gray-600 leading-tight">
-                    DONG A IMPORT EXPORT TRANSPORT SERVICE TRADING CORPORATION
-                  </h1>
-                </div>
-
-                <div className="mb-4 rounded-lg bg-gray-50 px-4 py-3 font-medium text-gray-700">
-                  <span>Contact & Bio</span>
-                </div>
-
-                <div className="space-y-6">
                   {/* Email */}
                   <div>
                     <p className="mb-2 text-sm font-medium text-gray-700">
@@ -148,6 +122,24 @@ export default function Portfolio() {
                       <span className="text-gray-900">info@dongacorp.com.vn</span>
                     </div>
                   </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact & Bio Card - Separate */}
+              <div className="bg-white rounded-2xl shadow-lg p-8">
+                {/* Header */}
+                <div className="mb-8 border-b border-blue-600 pb-6">
+                  <h1 className="text-3xl font-bold text-gray-600 leading-tight">
+                    DONG A IMPORT EXPORT TRANSPORT SERVICE TRADING CORPORATION
+                  </h1>
+                </div>
+
+                <div className="mb-4 rounded-lg bg-gray-50 px-4 py-3 font-medium text-gray-700">
+                  <span>Contact & Bio</span>
+                </div>
+
+                <div className="space-y-6">
 
                   {/* Website */}
                   <div>
