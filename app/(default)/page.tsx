@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "DongA Corp",
+  title: "Dong A Corp",
   description: "Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi",
 };
 

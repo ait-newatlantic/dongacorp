@@ -61,10 +61,13 @@ export default function HeroHome() {
 						data-aos="zoom-y-out"
 						data-aos-delay={600}
 					>
-						<img
+						<Image
 							className="relative aspect-video rounded-2xl px-5 py-3"
 							src="/images/banner.webp"
 							alt="banner"
+							width={1200}
+							height={675}
+							priority
 						/>
 					</div>
 				</div>
