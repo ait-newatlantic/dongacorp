@@ -42,7 +42,7 @@ export default function Portfolio() {
                 </div>
 
                 {/* Phone */}
-                <div className="text-left">
+                <div className="text-left mb-4">
                   <p className="mb-2 text-sm font-medium text-gray-500">
                     Phone
                   </p>
@@ -61,6 +61,29 @@ export default function Portfolio() {
                       />
                     </svg>
                     <span className="text-base font-semibold text-gray-900">+ (84) 91 86 88 168</span>
+                  </div>
+                </div>
+
+                {/* Email */}
+                <div className="text-left">
+                  <p className="mb-2 text-sm font-medium text-gray-500">
+                    Email
+                  </p>
+                  <div className="flex items-center gap-3">
+                    <svg
+                      className="h-5 w-5 text-blue-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
+                    </svg>
+                    <span className="text-base font-semibold text-gray-900">info@dongacorp.com.vn</span>
                   </div>
                 </div>
               </div>
@@ -100,28 +123,6 @@ export default function Portfolio() {
                       </p>
                       <p className="text-xl font-bold text-blue-600">Managing Director</p>
                     </div>
-                  {/* Email */}
-                  <div>
-                    <p className="mb-2 text-sm font-medium text-gray-500">
-                      Email
-                    </p>
-                    <div className="flex items-center gap-3">
-                      <svg
-                        className="h-5 w-5 text-blue-500"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                        />
-                      </svg>
-                      <span className="text-lg font-semibold text-gray-900">info@dongacorp.com.vn</span>
-                    </div>
-                  </div>
                   </div>
                 </div>
               </div>
