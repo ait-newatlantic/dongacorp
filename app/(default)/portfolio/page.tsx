@@ -1,6 +1,10 @@
+"use client";
+
 import Image from "next/image";
+import { useLanguage } from "@/contexts/language-context";
 
 export default function Portfolio() {
+  const { t } = useLanguage();
   return (
     <>
       {/* Hero Banner */}
@@ -44,7 +48,7 @@ export default function Portfolio() {
                 {/* Phone */}
                 <div className="text-left mb-4">
                   <p className="mb-2 text-sm font-medium text-gray-500">
-                    Phone
+                    {t("portfolio.phone")}
                   </p>
                   <div className="flex items-center gap-3">
                     <svg
@@ -67,7 +71,7 @@ export default function Portfolio() {
                 {/* Email */}
                 <div className="text-left">
                   <p className="mb-2 text-sm font-medium text-gray-500">
-                    Email
+                    {t("portfolio.email")}
                   </p>
                   <div className="flex items-center gap-3">
                     <svg
@@ -96,32 +100,32 @@ export default function Portfolio() {
                 {/* Header */}
                 <div className="mb-8 border-b pb-6">
                   <h1 className="mb-2 text-4xl font-bold text-gray-900">
-                    Mr Le Quang Hung
+                    {t("portfolio.name")}
                   </h1>
-                  <p className="text-xl text-gray-600">Managing Director</p>
+                  <p className="text-xl text-gray-600">{t("portfolio.title")}</p>
                 </div>
 
                 {/* Featured Information */}
                 <div>
                   <div className="mb-4 rounded-lg bg-gray-50 px-4 py-3 font-medium text-gray-700">
-                    <span>Featured Information</span>
+                    <span>{t("portfolio.featured")}</span>
                   </div>
 
                   <div className="space-y-6">
                     {/* Name */}
                     <div>
                       <p className="mb-2 text-sm font-medium text-gray-500">
-                        Full name 
+                        {t("portfolio.fullname")}
                       </p>
-                      <p className="text-xl font-bold text-gray-900">Mr Le Quang Hung</p>
+                      <p className="text-xl font-bold text-gray-900">{t("portfolio.name")}</p>
                     </div>
 
                     {/* Title */}
                     <div>
                       <p className="mb-2 text-sm font-medium text-gray-500">
-                        Role
+                        {t("portfolio.role")}
                       </p>
-                      <p className="text-xl font-bold text-blue-600">Managing Director</p>
+                      <p className="text-xl font-bold text-blue-600">{t("portfolio.title")}</p>
                     </div>
                   </div>
                 </div>
@@ -132,12 +136,12 @@ export default function Portfolio() {
                 {/* Header */}
                 <div className="mb-8 border-b border-blue-600 pb-6">
                   <h1 className="text-3xl font-bold text-gray-600 leading-tight">
-                    DONG A IMPORT EXPORT TRANSPORT SERVICE TRADING CORPORATION
+                    {t("portfolio.company.full")}
                   </h1>
                 </div>
 
                 <div className="mb-4 rounded-lg bg-gray-50 px-4 py-3 font-medium text-gray-700">
-                  <span>Contact & Bio</span>
+                  <span>{t("portfolio.contact")}</span>
                 </div>
 
                 <div className="space-y-6">
@@ -145,7 +149,7 @@ export default function Portfolio() {
                   {/* Website */}
                   <div>
                     <p className="mb-2 text-sm font-medium text-gray-500">
-                      Website
+                      {t("portfolio.website")}
                     </p>
                     <div className="flex items-center gap-3">
                       <svg
@@ -168,7 +172,7 @@ export default function Portfolio() {
                   {/* Address */}
                   <div>
                     <p className="mb-2 text-sm font-medium text-gray-500">
-                      Address
+                      {t("portfolio.address")}
                     </p>
                     <div className="flex items-start gap-3">
                       <svg
@@ -191,8 +195,7 @@ export default function Portfolio() {
                         />
                       </svg>
                       <span className="text-lg font-semibold text-gray-900">
-                        156 Nam Ky Khoi Nghia, Sai Gon Ward, Ho Chi Minh City,
-                        Viet Nam
+                        {t("portfolio.address.full")}
                       </span>
                     </div>
                   </div>

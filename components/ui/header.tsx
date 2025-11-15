@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Logo from "./logo";
+import LanguageSwitcher from "./language-switcher";
 
 export default function Header() {
   return (
@@ -9,6 +10,11 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
+          </div>
+
+          {/* Language Switcher */}
+          <div className="flex items-center">
+            <LanguageSwitcher />
           </div>
         </div>
       </div>
